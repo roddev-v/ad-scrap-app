@@ -27,11 +27,7 @@ class _HomeState extends State<Home> {
           },
         ),
         body: Container(
-          child: AnimatedContainer(
-              duration: Duration(milliseconds: 250),
-              width: 250.0,
-              height: 250.0,
-              color: color),
+          child: AnimatedContainer(duration: Duration(milliseconds: 250), width: 250.0, height: 250.0, color: color),
         ),
       ),
     );
